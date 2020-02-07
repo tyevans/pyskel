@@ -1,0 +1,2 @@
+{% for r in python_requirements %}{{ r }}{% if not loop.last %}
+{% endif %}{% endfor %}
